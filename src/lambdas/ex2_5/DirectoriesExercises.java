@@ -4,7 +4,7 @@ import java.io.File;
 import java.util.Arrays;
 
 
-public class SubDir {
+public class DirectoriesExercises {
     //ex2
     private static File[] getSubdirectories(String directoryName) {
         File directory = new File(directoryName);
