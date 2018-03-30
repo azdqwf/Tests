@@ -33,7 +33,7 @@ public class DirectoriesExercises {
 
     //ex4
     private static void sortDir(File[] files) {
-        Arrays.asList(files).sort(File::compareTo);// or (f1,f2) -> f1.compareTo(f2);
+        Arrays.asList(files).sort(File::compareTo);//or (f1,f2) -> f1.compareTo(f2);
     }
 
 
